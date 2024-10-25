@@ -1,0 +1,11 @@
+my_dict={}
+my_dict={'name':'Triumph','age':'18','grade':'12'}
+print(my_dict)
+print(my_dict['name'])
+print(my_dict.get('age'))
+my_dict['country']='Nigeria'
+print(my_dict)
+my_dict.pop('age')
+print(my_dict)
+my_dict.clear()
+print(my_dict)
